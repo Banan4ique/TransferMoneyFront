@@ -1,0 +1,7 @@
+services:
+  node:
+    image: 'transfer-master-front:latest'
+    container_name: node_compose
+    build: ./
+    ports:
+      - '3000:3000'
